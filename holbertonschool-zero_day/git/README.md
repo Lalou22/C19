@@ -1,3 +1,6 @@
+Modification requested in **Git project task 4**:<br>
+For this task – and only for this task – please update your file README.md in the main branch from GitHub.com. It’s the only time you are allowed to update and commit from GitHub interface.<br>
+<br>
 Git<br>
 https://intranet.hbtn.io/projects/2147<br>
 <br>
