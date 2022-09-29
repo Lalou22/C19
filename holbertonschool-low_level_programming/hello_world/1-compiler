@@ -1,2 +1,2 @@
 #!/bin/bash
-testvar=$(echo $CFILE | tr ".c" ".o") ; (gcc -S $CFILE -o $testvar)
+testvar=$(echo $CFILE | tr ".c" ".o") ; (gcc -C $CFILE -o $testvar)
