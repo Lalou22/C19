@@ -1,0 +1,2 @@
+#!/bin/bash
+testvar=$(echo $CFILE | tr ".c" ".s") ; (gcc -S -masm=intel $CFILE -o $testvar)
