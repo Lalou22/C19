@@ -14,19 +14,20 @@
  */
 int main(void)
 {
-	long int a, b, aux, sum = 0;
+	long int a, b, c, d, s;
 
 	a = 1;
 	b = 2;
-	printf("%ld", b);
-	while (b <= 4000000)
+	c = 3;
+	s = 2;
+	for (d = 2; d <= 32; d++)
 	{
-		aux = b;
-		b = a + b;
-		a = aux;
-		if (b % 2 == 0)
-			sum += b;
+		if (c % 2 == 0)
+			s = s + c;
+		a = b;
+		b = c;
+		c = a + b;
 	}
-	printf("%ld\n", sum);
+	printf("%ld\n", s);
 	return (0);
 }
