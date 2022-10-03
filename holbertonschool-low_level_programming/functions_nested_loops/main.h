@@ -24,5 +24,7 @@ int print_last_digit(int);
 void jack_bauer(void);
 /* Task 9 */
 void times_table(void);
+/* Task 10 */
+int add(int, int);
 
 #endif /* MAIN_H */
