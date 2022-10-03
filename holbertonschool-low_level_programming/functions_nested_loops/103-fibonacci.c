@@ -14,7 +14,7 @@
  */
 int main(void)
 {
-	long int a, b, aux;
+	long int a, b, aux, sum = 0;
 
 	a = 1;
 	b = 2;
@@ -25,8 +25,8 @@ int main(void)
 		b = a + b;
 		a = aux;
 		if (b % 2 == 0)
-			printf(", %ld", b);
+			sum += b;
 	}
-	printf("\n");
+	printf("%ld\n", sum);
 	return (0);
 }
