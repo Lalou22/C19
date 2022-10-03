@@ -4,6 +4,7 @@
  */
 #include "main.h"
 
+void print_int_recursion(int n);
 /**
  * print_number - Write a function that prints an integer.
  * @n: Int to be printed.
@@ -13,19 +14,40 @@
  */
 void print_number(int n)
 {
-	int multi = 10;
+	int num = n;
 
-	if (n < 0)
+	if (num == 0)
+	{
+		_putchar('0');
+		return;
+	}
+	if (num < 0)
 	{
 		_putchar('-');
-		n = n * -1;
+		num = num * -1;
 	}
-	while (n / multi != 0)
-		multi = multi * 10;
-	while (multi >= 10)
+	print_int_recursion(num);
+}
+
+/**
+ * print_int_recursion - Prints an integer using recursion.
+ * @num: Int to be printed.
+ *
+ * Description: You can only use _putchar function to print.
+ * Return: void
+ */
+void print_int_recursion(int num)
+{
+	int number = num;
+	int base = 10;
+
+	if ((number / base == 0) && (number % base == 0))
 	{
-		multi = multi / 10;
-		_putchar((n / multi) + 48);
-		n = n % multi;
+		return;
+	}
+	else
+	{
+		print_int_recursion(number / base);
+		_putchar('0' + number % base);
 	}
 }
