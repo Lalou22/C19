@@ -5,6 +5,8 @@
 #include <unistd.h>
 
 int _putchar(char c);
+
+/* Project C - Pointers, arrays and strings */
 /* Task 0 */
 void reset_to_98(int *n);
 /* Task 1 */
@@ -27,5 +29,9 @@ void print_array(int *a, int n);
 char *_strcpy(char *dest, char *src);
 /* Task 10 */
 int _atoi(char *s);
+
+/* Project C - More pointers, arrays and strings */
+/* Task 0 */
+char *_strcat(char *dest, char *src);
 
 #endif /* MAIN_H */
