@@ -13,5 +13,7 @@ void swap_int(int *a, int *b);
 int _strlen(char *s);
 /* Task 3 */
 void _puts(char *str);
+/* Task 4 */
+void print_rev(char *s);
 
 #endif /* MAIN_H */
