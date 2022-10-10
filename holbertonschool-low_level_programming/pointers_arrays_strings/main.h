@@ -17,5 +17,7 @@ void _puts(char *str);
 void print_rev(char *s);
 /* Task 5 */
 void rev_string(char *s);
+/* Task 6 */
+void puts2(char *str);
 
 #endif /* MAIN_H */
