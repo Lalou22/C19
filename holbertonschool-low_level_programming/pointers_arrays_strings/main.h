@@ -33,5 +33,7 @@ int _atoi(char *s);
 /* Project C - More pointers, arrays and strings */
 /* Task 0 */
 char *_strcat(char *dest, char *src);
+/* Task 1 */
+char *_strncat(char *dest, char *src, int n);
 
 #endif /* MAIN_H */
