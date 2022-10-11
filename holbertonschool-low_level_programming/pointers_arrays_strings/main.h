@@ -49,5 +49,7 @@ char *cap_string(char *);
 char *leet(char *);
 /* Task 8 */
 char *rot13(char *);
+/* Task 9 */
+void print_number(int n);
 
 #endif /* MAIN_H */
