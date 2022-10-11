@@ -8,5 +8,6 @@ GitHub repository: **holbertonschool-low_level_programming**
 <br>   **C - More functions, more nested loops** https://intranet.hbtn.io/projects/2154
 <br>   **C - Pointers, arrays and strings** https://intranet.hbtn.io/projects/2155
 <br>   **C - More pointers, arrays and strings** https://intranet.hbtn.io/projects/2156
+<br>   **C - Even more pointers, arrays and strings** https://intranet.hbtn.io/projects/2157
 <br>   **C - Recursion** https://intranet.hbtn.io/projects/2158
 <br>
