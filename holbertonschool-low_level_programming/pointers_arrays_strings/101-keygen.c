@@ -10,7 +10,7 @@
 int main(void)
 {
 	int n, digit, div = 1, sum = 0, left = 0;
-	
+
 	while (sum < 2772)
 	{
 		srand(time(0));
