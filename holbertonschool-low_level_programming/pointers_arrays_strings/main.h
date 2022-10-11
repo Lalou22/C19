@@ -47,5 +47,7 @@ char *string_toupper(char *);
 char *cap_string(char *);
 /* Task 7 */
 char *leet(char *);
+/* Task 8 */
+char *rot13(char *);
 
 #endif /* MAIN_H */
