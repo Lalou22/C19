@@ -67,5 +67,7 @@ unsigned int _strspn(char *s, char *accept);
 char *_strpbrk(char *s, char *accept);
 /* Task 5 */
 char *_strstr(char *haystack, char *needle);
+/* Task 6 */
+void print_chessboard(char (*a)[8]);
 
 #endif /* MAIN_H */
