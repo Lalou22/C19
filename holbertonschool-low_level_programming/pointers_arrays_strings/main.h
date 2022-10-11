@@ -54,4 +54,8 @@ void print_number(int n);
 /* Task 11 */
 char *infinite_add(char *n1, char *n2, char *r, int size_r);
 
+/* Project C - More pointers, arrays and strings */
+/* Task 0 */
+char *_memset(char *s, char b, unsigned int n);
+
 #endif /* MAIN_H */
