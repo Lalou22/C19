@@ -65,5 +65,7 @@ char *_strchr(char *s, char c);
 unsigned int _strspn(char *s, char *accept);
 /* Task 4 */
 char *_strpbrk(char *s, char *accept);
+/* Task 5 */
+char *_strstr(char *haystack, char *needle);
 
 #endif /* MAIN_H */
