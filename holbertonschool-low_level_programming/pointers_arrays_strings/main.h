@@ -41,5 +41,7 @@ char *_strncpy(char *dest, char *src, int n);
 int _strcmp(char *s1, char *s2);
 /* Task 4 */
 void reverse_array(int *a, int n);
+/* Task 5 */
+char *string_toupper(char *);
 
 #endif /* MAIN_H */
