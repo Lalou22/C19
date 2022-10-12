@@ -12,4 +12,5 @@ GitHub repository: **holbertonschool-low_level_programming**
 <br>   **C - Recursion** https://intranet.hbtn.io/projects/2158
 <br>   **C - Static libraries** https://intranet.hbtn.io/projects/2159
 <br>   **C - argc, argv** https://intranet.hbtn.io/projects/2160
+<br>   **C - malloc, free** https://intranet.hbtn.io/projects/2161
 <br>
