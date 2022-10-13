@@ -14,5 +14,7 @@ char *_strdup(char *str);
 char *str_concat(char *s1, char *s2);
 /* Task 3 */
 int **alloc_grid(int width, int height);
+/* Task 4 */
+void free_grid(int **grid, int height);
 
 #endif /* MAIN_H */
